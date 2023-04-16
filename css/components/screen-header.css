@@ -1,4 +1,15 @@
-header {
-    position: relative;
-    top: 20px;
+  .screen-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  
+  .screen-header__title {
+    font-size: 32px;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .screen-header__icons span {
+    margin-left: 25px;
   }
